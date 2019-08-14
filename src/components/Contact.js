@@ -11,9 +11,8 @@ class Contact extends Component {
         </h1>
         <Fade bottom>
         <div className='contact-content'>
-                <h1>Having Fun?<br></br>
-                <span className='amazing-color'>Stay in Touch</span></h1>
-                    <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
+                <h3>Having Fun?<br></br>
+                <span className='amazing-color'>Stay in Touch!</span></h3>
                 <ul>
                     {data.social.map((link,index)=>(
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>

@@ -8,7 +8,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
+        <h1 className='heading-background'>Mengyao</h1>
             <Fade bottom>
             <p className='header-title'>
             {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
