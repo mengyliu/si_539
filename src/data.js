@@ -2,7 +2,8 @@ export default {
   name :'Mengyao',
   headerTagline: 
   [
-    'Hi 👋, I am Mengyao',
+    'Hi 👋, ',
+    'I am Mengyao',
     'An interactive Developer & Desginer',
   ],
   contactEmail:'mengyliu@umich.edu',

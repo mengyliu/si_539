@@ -11,8 +11,8 @@ class Contact extends Component {
         </h1>
         <Fade bottom>
         <div className='contact-content'>
-                <h3>Having Fun?<br></br>
-                <span className='amazing-color'>Stay in Touch!</span></h3>
+                <h1>Having Fun?<br></br>
+                <span className='amazing-color'>Stay in Touch!</span></h1>
                 <ul>
                     {data.social.map((link,index)=>(
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
